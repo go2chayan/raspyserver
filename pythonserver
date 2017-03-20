@@ -1,0 +1,7 @@
+#!/bin/bash
+# /etc/init.d/pythonserver
+
+cd /home/pi/Devel
+nohup /usr/bin/python /home/pi/Devel/server.py &
+
+

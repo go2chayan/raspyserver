@@ -1,0 +1,17 @@
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+67.242.178.220 - - [20/Mar/2017 21:04:11] "GET / HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:11] "GET /static/styles.css HTTP/1.1" 304 -
+67.242.178.220 - - [20/Mar/2017 21:04:12] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:21] "GET / HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:29] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:39] "GET /restaurant/3 HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:40] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:42] "GET /restaurant/3/menu/3/edit HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:42] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:44] "GET /restaurant/3 HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:44] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:50] "GET /restaurant/3 HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:50] "GET /static/img3.jpg HTTP/1.1" 404 -
+67.242.178.220 - - [20/Mar/2017 21:04:53] "GET / HTTP/1.1" 200 -
+67.242.178.220 - - [20/Mar/2017 21:04:53] "GET /static/img3.jpg HTTP/1.1" 404 -
+66.249.65.199 - - [20/Mar/2017 21:09:08] "GET /restaurant/4/menu/15/edit HTTP/1.1" 200 -

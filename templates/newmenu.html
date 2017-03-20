@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Add a New Menu</h1>
+    <form action="{{url_for('newMenuItem',rest_id=restid)}}" 
+    method="post">
+    <p>Name of Menu:<br/>
+    <input type="text" size="30" name="name" required>
+    </p>
+    <p>Course:<br/>
+    <input type="text" name="course">
+    </p>
+    <p>Price:<br/>
+    <input type="text" name="price">
+    </p>
+    <p>Description:<br/>
+    <textarea rows="4" cols="50" name="description"></textarea> 
+    </p>
+    <input type="submit" value="Create">
+    <a href="{{url_for('ShowMenu',restid=restid)}}">Cancel</a>
+    </form>
+</body>
+
+</html>

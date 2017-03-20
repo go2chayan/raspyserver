@@ -1,0 +1,32 @@
+<html>
+<head>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<h1>Welcome to Raspberry Restaurant Repository</h1>
+</p>
+{% for i in rests %}
+
+<div>
+
+<p>
+{{i.name}}<br/>
+<a href="{{url_for('ShowMenu',restid=i.id)}}">Show Menu </a><br/>
+<a href={{url_for('ShowMenuJSON',restaurant_id=i.id)}}>JSON</a><br/>
+<a href="{{url_for('EditRestaurant',restid=i.id)}}">Edit</a>
+
+</p>
+
+</div>
+
+
+{% endfor %}
+</body>
+
+<p>This web application is implemented in a Raspberry Pi. The picture of the Pi is given below:</p>
+<img src="https://lh3.googleusercontent.com/XUzbgRMOhqqPau3AIHONyMl16UCRGogXVL35aRNr8Z9IuRt0aMyEeY_TNX2UATLgD_4pF5taYFOAVZ5SW0WdqaqT56jDc0opbJjS9s-IsOXgf8dv5r4IBKJ78T0LKTOW_UCjRLxrAkdijwVRwgkE1TjhhEjp3Rt7iwWFVWi9wlFkIYmn7Ay-cDfUahpexpm2iBE3BOa10FMK-U1rz7KW39pEVVpIRpgBhpzuvTNf99bg5vPG1tyRC1w9dm7hlboGay5otuOyWJ8ehIN_W0jQ5q2MGVIl4QFIE1FNYWfO-yKL4vvjXB7Rq1s9bwuLid-9glsTYHNMYLnYB4mDH21tJ7z4Ab5axF-T46CDxB_O3qLPAmZ9kKBAUIkEvRKQGtH7pebBC01uuuUHZEZW-frcAzKPiowxV28VyVmgOGxSCCNdLzPyEWM5FNsQ6e4Us_5AlfeXzzL-YKs3fTni96MnKLzzMhLr316yHx0pOUa6jIMIDT0fl3p07Slk-uKNWh14i7z6ePi9crDkCgi3L84RN6Vvbv8EehPmEoGmGocLfDwrJkfIR9Pul0izd7cF-ZPA7QiFFl2tGjC0DjTOveGhhw_zrkwXKy60cPaRS548Z_PYVRbZmEPq-g=w1844-h1038-no" width="400" />
+<p>The author (Iftekhar Tanveer) is just learning
+<a href="http://www.udacity.com/course/full-stack-foundations--ud088"> Full Stack web application development </a> using python. 
+So, don't expect anything here.</a>
+</html>
