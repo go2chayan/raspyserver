@@ -1,7 +1,8 @@
 # raspyserver
 A python webserver sample for fun (originally hosted in a raspberry pi)
 
-Put all the files in /home/pi/Devel
+Put all the files in /home/pi/Devel/raspyserver
+(If you change this path, adjust accordingly in the ./pythonserver file)
 
 Install requirements by running:
 sudo ./setup.sh 
